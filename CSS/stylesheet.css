@@ -1,0 +1,126 @@
+body {
+  font-family: 'Nunita', sans-serif;
+}
+
+#stats2{
+  padding-top: 68px;
+  padding-left: 160px;
+  padding-right: 160px;
+  margin-bottom: 50px;
+}
+
+.stats2-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  font-size: 34px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.stats2-header2,
+.stats2-header3{
+  font-size: 15px;
+  color: #bdbdb7;
+}
+
+.cards-section{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cards{
+  width: 100%;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #151515;
+  border: solid;
+  border-width: 1px;
+  border-color: #4D4D4E;
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  gap: 20px;
+}
+
+.table-head{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 16px;
+  color: white;
+}
+
+.table-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.table-row .left-side{
+  color: #cecece;
+}
+
+.table-row .right-side{
+  color: white;
+}
+
+.img2, .img3 {
+  width: 60px;
+  padding-left: 20px;
+}
+
+.token-name {
+  display: inline-flex;
+  align-items: center;
+  font-size: 26px;
+  color: #fff;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-family: 'Tahoma', sans-serif;
+}
+
+.buy{
+  background: #3eb489;
+  padding: 9px 17px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 24px;
+  border: none;
+  cursor: pointer;
+}
+.buy:hover {
+  background: #207a59;
+}
+
+.read_more {
+  background: none;
+  outline: none;
+  border: 1px solid #9ba0b8;
+  padding: 9px 18px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.read_more:hover {
+  background: rgba(245, 245, 245, .1);
+}
+
+hr {
+  color: #b9b9b9;
+  opacity: 20%;
+}
